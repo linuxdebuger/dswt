@@ -1,0 +1,977 @@
+1 Write the HTML code for generating the form as shown below. Apply the internal CSS to
+following form to change the font size of the heading to 6pt and change the color to red and
+alsochange the background color to yellow.
+<html> <head> <title> user Registration From </title> <style> h 1{background-color:yellow;font-
+style:italic}
+</style> </head> <body> <h2 align=”center”>/user Registration Form</h1> <from> Enter Name
+<input type=”text” name=”t1”><br><br> Enter Age <input type=”number” name=’ ‘age”><br><br>
+Enter Email id <input type=”email” name=”email”><br><br>
+<input type=”submit” name=”b1’ ‘ value=”submit”>
+</form>
+</body>
+</html>
+Q.1) Create HTML5 page with following specifications
+[1
+5]
+i) Title should be about your City.
+ii) Color the background by Pink color.
+iii) Place your city name at the top of page in large text and in blue color.
+iv) Add names of the landmarks in your city, each in different color, style and font
+Add any image at the bottom. (Use inline CSS to format the web page)
+<HTML>
+<HEAD><TITLE><CENTER>My CITY</CENTER></TITLE></HEAD>
+<BODY BGCOLOR="ORANGE">
+<BODY BGCOLOR="ORANGE">
+<FONT SIZE="7" FACE="ARIAL" COLOR="BLUE"><CENTER>PUNE,
+<SMALL>MAHARASHTRA</SMALL></FONT><BR>
+<BODY BGCOLOR="RED"><CENTER>
+<font size="4" face="arial" color="pink"<B>Landmarks</B></font><BR>
+<font size="4" face="arial" color="yellow"<B>SHANIVAR WADA</B></font><BR>
+<font size="4" face="arial" color="red"<B>Empharence Mall</B></font><BR>
+<font size="4" face="arial" color="blue"<B>Ganesh Tekadi</B></font><BR>
+<BODY BGCOLOR="PINK"<CENTER>
+<MARQUEE BEHAVIOUR="SLIDE"> Wonderful Place To Visit</MARQUEE>
+<MARQUEE BEHAVIOUR="SLIDE">Pune Is best City for Education</MARQUEE>
+<IMG SRC="b.jpg" WIDTH="400" HEIGHT="400" ALT="IMAGE CANNOT BE DISPLAYED">
+</BODY>
+</HTML>Q.1) Write a program using html with following CSS specifications-
+[1
+5]
+i.
+The background colour of the company name should be in green.
+ii.
+The text colour of the company name should be red.
+iii.
+The heading should be large –with font ''comic sans ms''
+The description of the company should be displayed in blue color in a paragraph
+<! DOCTYPE html>
+<html>
+<head>
+<title>Titan Fastrack</title>
+<style>
+h1{
+text-align: center;
+background-color: green;
+color: red;
+font-family: “comic sans MS”;
+}
+p{
+color: blue;
+}
+</style>
+</head>
+<body>
+<h1>Titan Fastrack</h1>
+<p>
+Fastrack is a fashion accessory retail brand in india.The company was launched in 1998 as a
+sub -brsnd of titan watches.in 2005, Fastrack was supn off as an independent brand
+targeting the urban youth and growing fashion industry in india.
+</p>
+</body>
+</html>Write a HTML code, which generate the following output
+[1
+5]
+List of Books
+Item Name
+Item No
+1
+2
+Programming in Python
+Programming in Java
+<?php
+// PHP implementation of above approach
+//function to calculate coin
+function coin($totalRupees, $X, $Y, $Z)
+{
+$one = 0;
+$fifty = 0;
+$twentyfive = 0;
+$result = 0;
+$total = 0;
+// Converting each of them in rupees.
+// As we are given totalRupees = 1800
+$one = $X * 1;
+$fifty = (($Y * 1) / 2.0);
+$twentyfive = (($Z * 1) / 4.0);
+$total = $one + $fifty + $twentyfive;
+$result = (($totalRupees) / $total);
+return $result;
+}
+// Driver Code
+$totalRupees = 1800;
+$X = 1;
+$Y = 2;
+$Z = 4;
+$Rupees = coin($totalRupees, $X, $Y, $Z);
+echo "1 rupee coins = ", $Rupees * 1, "\n";
+echo "50 paisa coins = ", $Rupees * 2, "\n";
+echo "25 paisa coins = ", $Rupees * 4, "\n";
+// This code is contributed
+// by Shashank_Sharma.
+?>
+Price
+Rs.
+500
+345
+Paise
+50
+00Create following Bootstrap Web Layout Design and change Title, add your personal information,
+educational information, job profile
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fon
+t-awesome/4.7.0/css/font-awesome.min.css">
+<div class="card">
+<img src="img.jpg" alt="John" style="width:100%">
+<h1>John Doe</h1>
+<p class="title">CEO & Founder, Example</p>
+<p>Harvard University</p>
+<a href="#"><i class="fa fa-dribbble"></i></a>
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-linkedin"></i></a>
+<a href="#"><i class="fa fa-facebook"></i></a>
+<p><button>Contact</button></p>
+</div>
+Create following Bootstrap Web Layout Design and set Header background color Blue,add your
+College name, set Menu section background color green create menu About Us, In content section
+add college information, background color yellow, Footer section backgroundcolor red, add address
+of college.
+Design HTML 5 Page Using CSS Which Displays the following Navigation Bar
+1. <Html>
+2. <Head>
+3. <Title>
+4. Make a Navigation Bar
+5. </Title>
+6. </Head>
+7. <Body>
+8. </Body>
+9. </Html>
+10. <Body>
+11. <nav>
+12.
+13.
+14. </nav>
+15. You are at JavaTpoint Site.....
+16. </Body>
+17. </Html>
+18. <Body>19. <nav>
+20. <ul>
+21. <li>
+22. <a href="#"> Home </a>
+23. </li>
+24. <li>
+25. <a href="#"> About </a>
+26. </li>
+27. <li>
+28. <a href="#"> Contact </a>
+29. </li>
+30. <li> <a href="#"> Terms of use </a>
+31. </li>
+32. <li>
+33. <a href="#"> Join Us </a>
+34. </li>
+35. </ul>
+36. </nav>
+37. You are at JavaTpoint Site.....
+38. </Body>
+39. </Html>
+40. <Head>
+41. <Title>
+42. Make a Navigation Bar
+43. </Title>
+44. <style type=text/css>
+45.
+46.
+47. </style>
+48. </Head>
+49. <style type=text/css>
+50. body
+51. {
+52. height: 125vh;
+53. margin-top: 80px;
+54. padding: 30px;
+55. background-size: cover;56. font-family: sans-serif;
+57. }
+58. header {
+59. background-color: orange;
+60. position: fixed;
+61. left: 0;
+62. right: 0;
+63. top: 5px;
+64. height: 30px;
+65. display: flex;
+66. align-items: center;
+67. box-shadow: 0 0 25px 0 black;
+68. }
+69. header * {
+70. display: inline;
+71. }
+72. header li {
+73. margin: 20px;
+74. }
+75. header li a {
+76. color: blue;
+77. text-decoration: none;
+78. }
+79. </style>
+80. <style type=text/css>
+81. body
+82. {
+83. height: 125vh;
+84. margin-top: 80px;
+85. padding: 30px;
+86. background-size: cover;
+87. font-family: sans-serif;
+88. }
+89. header {
+90. background-color: orange;
+91. position: fixed;
+92. left: 0;93. right: 0;
+94. top: 5px;
+95. height: 30px;
+96. display: flex;
+97. align-items: center;
+98. box-shadow: 0 0 25px 0 black;
+99. }
+100.header * {
+101.display: inline;
+102.}
+103.header li {
+104.margin: 20px;
+105.}
+106.header li a {
+107.color: blue;
+108.text-decoration: none;
+109.}
+110.</style>
+111.</Head>
+112.<Body>
+113.<header>
+114.<nav>
+115.<ul>
+116.<li>
+117.<a href="#"> Home </a>
+118.</li>
+119.<li>
+120.<a href="#"> About </a>
+121.</li>
+122.<li>
+123.<a href="#"> Contact </a>
+124.</li>
+125.<li> <a href="#"> Terms of use </a>
+126.</li>
+127.<li>
+128.<a href="#"> Join Us </a>
+129.</li>130.</ul>
+131.</nav>
+132.</header>
+133.You are at JavaTpoint Site.....
+134.</Body>
+135.</Html>
+Q.1)
+Design an HTML form to accept two strings from the user. Write a PHP script for
+thefollowing.
+a. Find whether the small string appears at the start of the large string.
+b. Find the position of the small string in the big string.
+Compare both the string for first n characters, also the comparison should not be case
+sensitive.
+<html>
+<body>
+<form action='ass1b2' method=post>
+<pre>
+Enter first string :<input type='text' name='str1'><br>
+Enter second string :<input type='text' name='str2'><br>
+Enter string for replace:<input type='text' name='str3'><br></h2>
+<input type='radio' name="ch" value=1>Occurence.
+<input type='radio' name="ch" value=2>Replace.
+<input type='radio' name="ch"
+value=3>split.
+<input type=submit value=ok> <input type=reset value=cancel>
+</pre>
+</form>
+</body>
+</html>
+<?php
+$str1=$_POST['str1'];
+$str2=$_POST['str2'];
+$str3=$_POST['str3'];
+$ch=$_POST['ch'];
+echo"First string=$str1.<br>";
+echo"Second String=$str2.<br>";
+echo"String for replace=$str3.<br>";
+if(strlen($str1)>strlen($str2))
+{
+switch($ch)
+{
+case 1: $pos=strpos($str1,$str2);
+if($pos!=0)
+echo"String '$str2' Not present at the start of '$str1'.<br>";else
+echo"String '$str2' Present at the strat of '$str1'.<br>";
+break;
+case 2:
+$str4=str_replace($str2,$str3,$str1);
+printf("\nAfter replacing string::");
+echo $str4;
+break;
+case 3: $s=preg_split("//",$str1);
+foreach($s as $v) echo "\t$v <br>";
+break;
+}
+}
+else
+{
+switch($ch)
+{
+case 1:$pos=strpos($str2,$str1);
+if($pos!=0)
+echo"String '$str1' Not present at the start of '$str2'.<br>";
+else
+echo"String '$str1' Present at the start of '$str2'.<br>";
+break;
+case 2: $str4=str_replace($str1,$str3,$str2);
+echo "After replacing string::$str4<br>";
+break;
+case 3:
+echo"After splitting the string::<br>";
+$s=preg_split("//",$str2);
+foreach($s as $v) echo "\t$v <br>";
+}
+}
+?>
+) Write a PHP script for the following: Design a form having a text box and a drop down
+listcontaining any 3 separators(e.g. #, |, %, @, ! or comma) accept a strings from the user
+and also aseparator.
+a. Split the string into separate words using the given separator.
+b. Replace all the occurrences of separator in the given string with some other separator.
+Find the last word in the given string
+<?php
+// Use preg_split() function
+$string = "123,456,78,000";
+$str_arr = preg_split ("/\,/", $string);
+print_r($str_arr);// use of explode
+$string = "123,46,78,000";
+$str_arr = explode (",", $string);
+print_r($str_arr);
+?>
+Q.1) Write a script to accept two integers(Use html form having 2
+textboxes).Write a PHP script to,
+a. Find mod of the two numbers.
+b. Find the power of first number raised to the second.
+c. Find the sum of first n numbers (considering first number as n)
+d. Find the factorial of second number.
+(Write separate function for each of the above operations.)
+1. <html>
+2. <body>
+3. <form method="post">
+4. Enter First Number:
+5. <input type="number" name="number1" /><br><br>
+6. Enter Second Number:
+7. <input type="number" name="number2" /><br><br>
+8. <input type="submit" name="submit" value="Add">
+9. </form>
+10. <?php
+11.if(isset($_POST['submit']))
+12.{
+13.$number1 = $_POST['number1'];
+14.$number2 = $_POST['number2'];
+15.$sum = $number1+$number2;
+16. echo "The sum of $number1 and $number2 is: ".$sum;
+17. }
+18. ?>
+19. </body>
+20. </html>
+Create a button with different style (Secondary, Primary, Success, Error, Info, Warning, Danger) using
+BootStrap.
+<button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button><button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button>
+<a href="#" class="btn btn-info" role="button">Link Button</a>
+<button type="button" class="btn btn-info">Button</button>
+<input type="button" class="btn btn-info" value="Input Button">
+<input type="submit" class="btn btn-info" value="Submit Button">
+Write a PHP script for the following: Design a form to accept two numbers from the user. Give
+options to choose the arithmetic operation (use radio buttons). Display the result on the nextform.
+(Use the concept of function and default parameters. Use ‘include’ construct or require statement)
+<html>
+<body bgcolor=black>
+<form action="setb1.php" method= "GET" >
+Enter first number : <input type=text name=a ><br>
+Enter second number: <input type=text name=b ><br>
+Operation::
+<input type=radio name=c value=1>Addition.<br>
+<input type=radio name=c value=2>Subtraction.<br>
+<input type=radio name=c value=3>Multiplication.<br>
+<input type=radio name=c value=4>Division.<br>
+<input type=submit value=ok> <input type=reset value=clear>
+</form>
+</body>
+</html><?php
+$n1 = $_GET['a'];
+$n2 = $_GET['b'];
+$ch = $_GET['c'];
+if($ch==1)
+{
+$c = $n1 + $n2;
+echo"addition is: $c";
+}
+else if($ch==2)
+{
+$c = $n1 - $n2;
+echo"subtraction is: $c";
+}
+else if($ch==3)
+{
+$c = $n1 * $n2;
+echo"multiplication is: $c";
+}else if($ch==4)
+{
+$c = $n1 / $n2;
+echo"Division is: $c";
+}
+?>
+Write a PHP script to create a chess board using CSS on table cells.
+<!DOCTYPE html>
+<html>
+<body>
+<table width="400px" border="1px" cellspacing="0px">
+<?php
+echo "Chess by GeeksforGeeks";
+$value = 0;
+for($col = 0; $col < 8; $col++) {
+echo "<tr>";
+$value = $col;
+for($row = 0; $row < 8; $row++) {
+if($value%2 == 0) {
+echo
+"<td height=40px width=20px bgcolor=black></td>";
+$value++;
+}
+else {
+echo"<td height=40px width=20px bgcolor=white></td>";
+$value++;
+}
+}
+echo "</tr>";
+}
+?>
+</table>
+</body>
+</html>
+Create a container add row inside it and add 3 columns inside row using BootStrap
+<div class="container">
+<div class="row">
+<div class="col">
+1 of 3
+</div>
+<div class="col-6">
+2 of 3 (wider)
+</div>
+<div class="col">
+3 of 3
+</div>
+</div>
+<div class="row">
+<div class="col">
+1 of 3
+</div>
+<div class="col-5">
+2 of 3 (wider)
+</div>
+<div class="col">
+3 of 3
+</div>
+</div>
+</div>
+Q.1) Design a form to accept string from the user and perform the following operations
+a. To select first 5 words from the string
+b. Convert the given string to lowercase and then to Title case.
+c. Pad the given string with “*” from left and right both the sides.
+d. Remove the leading whitespaces from the given string.
+Find the reverse of given string.
+<?php
+//all uppercase lettersprint(strtoupper("the quick brown fox jumps over the lazy
+dog."))."\n";
+//all lowercase letters
+print(strtolower("THE QUICK BROWN FOX JUMPS OVER THE LAZY
+DOG"))."\n";
+// make a string's first character uppercase
+print(ucfirst("the quick brown fox jumps over the lazy dog."))."\n";
+// make a string's first character of all the words uppercase
+print(ucwords("the quick brown fox jumps over the lazy dog."))."\n";
+?>
+Write a PHP script for the following: Design a form to accept the marks of 5 different subjects of a
+student, having serial number, subject name & marks out of 100. Display theresult in the tabular
+format which will have total, percentage and grade. Use only 3 text boxes.(Use array of form
+parameters)
+<?php
+// PHP Script to Calculate Total Marks of Student and Display Grade
+// These are the marks of five subjects
+$sub_1 = 95;
+$sub_2 = 85;
+$sub_3 = 74;
+$sub_4 = 64;
+$sub_5 = 53;
+$total = NULL;
+$average = NULL;
+$percentage = NULL;
+$grade = NULL;
+// It will calculate total, average, percentage, and grade
+$total = $sub_1 + $sub_2 + $sub_3 + $sub_4 + $sub_5;
+$average = $total / 5.0;
+$percentage = ($total / 500.0) * 100;if ($average >= 90)
+$grade = "A";
+else if ($average >= 80 && $average < 90)
+$grade = "B";
+else if ($average >= 70 && $average < 80)
+$grade = "C";
+else if ($average >= 60 && $average < 70)
+$grade = "D";
+else
+$grade = "E";
+// It will print the final output
+echo "The Total marks = " . $total . "/500\n";
+echo "The Average marks = " . $average . "\n";
+echo "The Percentage
+echo "The Grade
+= " . $percentage . "%\n";
+= '" . $grade . "'\n";
+?>
+) Write a PHP script to sort the following associative array :
+array(“Sagar"=>"31","Vicky"=>"41","Leena"=>"39","Ramesh"=>"40") in
+a) ascending order sort by Value
+b) ascending order sort by Key
+c) descending order sorting by Value
+descending order sorting by Key
+Q.1) Write a menu driven program to perform the following operations on an associative
+array
+a. Reverse the order of each element’s key-value pair.
+b. Traverse the element in an array in random order.
+c. Convert the array elements into individual variables.
+Display the elements of an array along with key.
+<html>
+<body>
+<form action="slip8_Q1.php" method="get">
+<center>
+<h3><input type="radio" name="op" value="1">Reverse the order of each elt's key-value
+pair</h3>
+<h3><input type="radio" name="op" value="2">Traverse the elements in array in random
+order</h3><input type="submit" value="Submit">
+</center>
+</form>
+</body>
+</html>
+<?php
+$op = $_GET['op'];
+$input = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+switch($op)
+{
+case 1 : $flipped = array_flip($input);
+print_r($flipped);
+break;
+case 2 : shuffle($input);
+print_r($input);
+break;
+}
+?>
+Q.1) Write a PHP script to accept 2 strings from the user, the first string should be a
+sentence andsecond can be a word.
+a. Delete a small part from first string after accepting position and number of
+characters toremove.
+b. Insert the given small string in the given big string at specified position without
+removingany characters from the big string.
+Replace some characters/ words from given big string with the given small string at specified
+position.
+// main class that everything inherits
+class Grandpa
+{
+public function __construct()
+{
+}
+}
+class Papa extends Grandpa
+{
+public function __construct($bypass = false)
+{
+// only perform actions inside if not bypassing
+if (!$bypass) {
+}
+// call Grandpa's constructor
+parent::__construct();
+}
+}class Kiddo extends Papa
+{
+public function __construct()
+{
+$bypassPapa = true;
+$bypassPapa = true;
+parent::__construct($bypassPapa);
+}
+}
+Q.1) Write a menu driven program to perform the following operations on associative
+arrays:
+a) Split an array into chunks
+b) Sort the array by values without changing the keys.
+Filter the even elements from an array.
+<html>
+<body bgcolor="gold">
+<?php
+function is_odd($var)
+{
+if($var%2==1)
+return $var;
+}
+$choice=$_POST['ch'];
+$arr=array('a'=>1,'b'=>2,'c'=>3,'d'=>4,'e'=>5,'f'=>6,'g'=>7,'h'=>8);
+$arr1=array('l'=>11,'m'=>22,'n'=>33,'o'=>44,'p'=>55,'q'=>66,'r'=>77,'s'=>88);
+$arr2=array('a'=>10,'b'=>20,'c'=>30,'d'=>40,'e'=>50,'f'=>60,'g'=>70,'h'=>80);
+switch($choice)
+{
+case 1:
+sort($arr);
+echo "Array in ascending order:<br>";
+print_r($arr);
+rsort($arr);
+echo "<br>Array in descending order:<br>";
+print_r($arr);
+break;
+case 2:
+asort($arr);
+echo "Array in ascending order:<br>";
+print_r($arr);
+arsort($arr);
+echo "<br>Array in descending order:<br>";
+print_r($arr);
+break;
+case 3:
+print_r(array_filter($arr,'is_odd'));
+break;case 4:
+array_multisort($arr,0,$arr1,1,$arr2,0);
+print_r($arr);
+echo "<br>";
+print_r($arr1);
+echo "<br>";
+print_r($arr2);
+echo "<br>";
+break;
+case 5:
+print_r(array_merge($arr,$arr1));
+break;
+case 6:
+print_r(array_intersect($arr,$arr1));
+break;
+case 7:
+$union=array_merge($arr,$arr1);
+print_r(array_unique($union));
+break;
+case 8:
+print_r(array_diff($arr,$arr1));
+break;
+}
+echo "<br><a href ='a2c2.html'> RETURN</a>";
+?>
+</font>
+</body>
+</html>
+) Create an array of 15 high temperatures, approximating the weather for a spring month,
+then find the average high temp, the five warmest high temps Display the result on the
+browser.
+<?php
+$month_temp = "78, 60, 62, 68, 71, 68, 73, 85, 66, 64, 76, 63, 81, 76, 73,
+68, 72, 73, 75, 65, 74, 63, 67, 65, 64, 68, 73, 75, 79, 73";
+$temp_array = explode(',', $month_temp);
+$tot_temp = 0;
+$temp_array_length = count($temp_array);
+foreach($temp_array as $temp)
+{
+$tot_temp += $temp;
+}
+$avg_high_temp = $tot_temp/$temp_array_length;
+echo "Average Temperature is : ".$avg_high_temp."";
+sort($temp_array);
+echo " List of five lowest temperatures :";
+for ($i=0; $i< 5; $i++)
+{
+echo $temp_array[$i].", ";
+}
+echo "List of five highest temperatures :";
+for ($i=($temp_array_length-5); $i< ($temp_array_length); $i++)
+{
+echo $temp_array[$i].", ";
+}
+?>
+Q.1) Write a menu driven program to perform the following queue related operations
+a) Insert an element in queue
+b) Delete an element from queue
+Display the co<?php
+$a=$_POST['op'];
+$b=array(1,2,3,4,5,6,7,8,9);
+switch($a)
+{
+case 1:
+print_r($b);
+array_push($b,10);
+echo"<br>";
+echo"After insert an element in stack:<br>";
+print_r($b);break;case 2:
+print_r($b);
+array_pop($b);
+echo"<br>";
+echo"After delete an element from stack :<br>";
+print_r($b);break;
+case 3:
+echo "Contents of stack.<br>";
+print_r($b);break;
+case 4:
+print_r($b);
+array_unshift($b,45);
+echo"<br>";
+echo"After insert an element in queue:<br>";
+print_r($b);break;
+case 5:
+print_r($b);
+array_shift($b);
+echo"<br>";
+echo"After delete an element in queue:<br>";
+print_r($b);break;
+case 6:
+print_r($b);break;}
+?>
+ntents of queue
+Q.1) Write a menu driven program to perform the following stack related operations:
+a) Insert an element in stack
+b) Delete an element from stack
+Display the contents of stack
+<html>
+<body>
+<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+Select options:
+<input type="radio" value="push" name="d1">Push</input>
+<input type="radio" value="pop" name="d1">Pop</input>
+<input type="radio" value="shift" name="d1">Shift</input>
+<input type="radio" value="unshift" name="d1">Unshift</input>
+<input type="submit">
+</form>
+<?php
+echo "
+Index ARRAY.......
+";
+$a = array(1,2,3,4,5,6,7);
+print_r($a);
+if($_SERVER["REQUEST_METHOD"] == "POST")
+{
+$opt = $_POST['d1'];
+if($opt == 'push')
+{
+array_push($a,11);
+print_r($a);
+}
+else if($opt == 'pop')
+{
+array_pop($a);
+print_r($a);
+}
+else if($opt == 'shift')
+{
+array_shift($a);
+print_r($a);
+}
+else if($opt == 'unshift')
+{
+array_unshift($a,11);
+print_r($a);
+}}
+?>
+Write a PHP program to read two file names from user and append content of first file intosecond
+file
+<?php
+$directory=$_GET['directory'];
+$extension=$_GET['extension'];
+if(!is_dir($directory))
+{
+die("Invalid Directory Name: $directory");
+}
+$handle=opendir($directory);
+echo "<br>Displaying files with extension: $extension";
+$cnt=1;
+while(($filename=readdir($handle))!==false)
+{
+if(strstr($filename,$extension))
+{
+echo "<br>$cnt:$filename";
+$cnt++;
+}
+}
+closedir($handle);
+?>
+Write a menu driven program to perform various file operations. Accept filename from
+user.
+5]
+a) Display type of file.
+b) Display last modification time of file
+c) Display the size of file
+Delete the file
+<?php
+[1$file=$_POST['file'];
+$file1=$_POST['file1'];
+$dir=$_POST['dir'];
+$c=$_POST['b'];
+$db=opendir($dir);
+switch($c)
+{
+case 1 :
+$size=filesize("$file");
+echo "the size of file is:$size";
+break;
+case 2:
+$a=fileatime($file);
+echo "last accessed time of file is :$a<br>";
+$c=filectime($file);
+echo "last changed time of file $c";
+$m=filemtime($file);
+echo "last modified time of file $m";
+break;
+case 3:
+$o=fileowner($file);
+echo "owner of file is $o";
+break;case 4:
+$t=filetype($file);
+echo "type of file is :$t";
+break;
+case 5:
+copy("$file","$file1");
+echo"copy successfully";
+break;
+case 6:
+while($a=readdir($db))
+{
+echo"$a<br>";
+}
+break;
+default:"invalid choice";
+}
+?>
+Consider the following entities and their
+relationship.
+[1
+5]Doctor ( doc_no, dname, address ,city ,area)
+Hospital (hosp_no, hname, hcity)
+Doctor-Hospital related with many-one
+relationship. Create a RDB in 3NF for above and
+solve the following.
+Using above database write a script in PHP to print the Doctor visiting to the Hospital in
+tabularformat. Accept Hospital name from user.
+<?php$hname = $_GET['hname'];
+$db = pg_connect("host=localhost dbname=Slips user=hp password= ");
+if($db)
+{
+$query = "select * from doc where dno in(select dno from doc_hosp where hno in(select hno from
+hosp where
+hname='$hname'))";
+$resultSet = pg_query($db,$query);
+echo "<h1>Doctor from hospital $hname are ...</h1>";
+echo "<table style=height:400;width:400; border=3>";
+echo "<tr><th>Dno</th>";
+echo "<th>Name</th>";
+echo "<th>Address</th>";
+echo "<th>City</th></tr>";
+while(($row = pg_fetch_array($resultSet)) != null)
+{
+echo "<tr><td>".$row['dno']."</td>";
+echo "<td>".$row['dname']."</td>";
+echo "<td>".$row['addr']."</td>";
+echo "<td>".$row['city']."</td></tr>";
+}
+echo "</table>";
+}
+?>
+Write a PHP program to read two file names from user and copy the content of first file into
+second file
+<?php
+$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
+$txt = "Mickey Mouse\n";
+fwrite($myfile, $txt);
+$txt = "Minnie Mouse\n";
+fwrite($myfile, $txt);
+fclose($myfile);
+?>
+Write a program to read a flat file “student.dat”, calculate the percentage and display the
+data from file in tabular format.(Student.dat file contains rollno, name, OS, WT, DS, Python,
+Java, CN )
+Q.1) Consider the following entities and their
+relationships
+[1
+5]Event (eno , title , date )
+Committee ( cno , name, head , from_time ,to_time , status)
+Event and Committee have many to many relationship. Write a php script to accept title
+of eventand modify status committee as working.
+Q.1) <?php$hname = $_GET['hname'];
+$db = pg_connect("host=localhost dbname=Slips user=hp password= ");
+if($db)
+{
+$query = "select * from doc where dno in(select dno from doc_hosp where hno in(select
+hno from hosp where
+hname='$hname'))";
+$resultSet = pg_query($db,$query);
+echo "<h1>Doctor from hospital $hname are ...</h1>";
+echo "<table style=height:400;width:400; border=3>";
+echo "<tr><th>Dno</th>";
+echo "<th>Name</th>";
+echo "<th>Address</th>";
+echo "<th>City</th></tr>";
+while(($row = pg_fetch_array($resultSet)) != null)
+{
+echo "<tr><td>".$row['dno']."</td>";
+echo "<td>".$row['dname']."</td>";
+echo "<td>".$row['addr']."</td>";
+echo "<td>".$row['city']."</td></tr>";
+}
+echo "</table>";
+}
+?> Consider the following entities and their
+relationships
+[1
+5]Student (Stud_id,name,class)
+Competition (c_no,c_name,type)
+Relationship between student and competition is many-many with attribute rank and year.
+Createa RDB in 3NF for the above and solve the following. Using above database write a
+script in PHP to accept a competition name from user and display information of student
+who has secured 1st rank in that competition.
+<?php
+$dept_name = $_POST['dept_name'];
+$con = pg_connect( "dbname=test" );
+if( !$con ) {
+echo 'Connection not established';
+exit;
+}
+$dept_insert = "insert into dept values(1,'HR','1st Floor') ,(2, 'Comp sci', '2nd
+floor'),(3,'Maths','2nd
+Floor'),(4,'Electronics','3rd Floor')";
+$res = pg_query($con,$dept_insert);
+$emp_insert = "insert into employee values( 1, 'abc','Pune','7894356','20000',1),( 2,
+'abc','Pune','7894356','10000', 1),( 3,
+'abc','Pune','7894356','30000',3),( 4, 'abc','Pune','7894356','120000',2)";
+$res1 = pg_query($con,$emp_insert);$strQuery = "select max(salary), min(salary), sum(salary) from employee where d_no in(select
+d_no from dept where
+dname = '$dept_name')";
+$result = pg_query($con,$strQuery);
+$row = pg_fetch_row($result);
+?>
+<html>
+<body>
+<table>
+<tr>
+<th>Maximum salary</th>
+<th>Minimum salary</th>
+<th>Sum</th>
+</tr>
+<tr>
+<td><?php echo $row[0];?></td>
+<td><?php echo $row[1];?></td>
+<td><?php echo $row[2];?></td>
+</tr>
+</table>
+</body>
+</html>
